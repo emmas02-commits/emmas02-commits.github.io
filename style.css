@@ -13,11 +13,22 @@ body {
     white-space: nowrap;
 }
 
-h6 {
-    display: inline;
+.name {
+  display: inline;
+  margin-left: 15;
+  margin-right: 140;
 }
 
-hr {margin: 15;}
+h6 {
+    display: inline;
+    margin-right: 15;
+}
+
+hr { 
+  margin-top: 25;
+  margin-left: -50px;
+  margin-right: -50px;  
+}
 
 p {
     color: black;
