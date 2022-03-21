@@ -153,6 +153,7 @@
    width: 100%;
    margin: 0 auto 30px auto;
    padding: 0 10px 0 10px;
+   text-align: center;
  }
  
  article > * {
@@ -264,11 +265,13 @@
 
  .name img {
     float: left;
+    marging-left: 30px;
  }
 
  .portrait img {
     float: right;
     margin-left: 30px;
+    margin-right: 30px;
  }
  
  .author__elsewhere {
