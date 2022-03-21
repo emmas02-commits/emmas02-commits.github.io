@@ -261,6 +261,15 @@
    color: inherit;
    border-bottom: none;
  }
+
+ .name img {
+    float: left;
+ }
+
+ .portrait img {
+    float: right;
+    margin-left: 15px;
+ }
  
  .author__elsewhere {
    display: flex;
