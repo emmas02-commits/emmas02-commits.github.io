@@ -46,12 +46,19 @@ p {
   text-align: center;
 }
 
-iframe {
-  align-content: center;
-  display: block;
+.responsiveWrapper {
+	overflow:hidden;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	position:relative;
 }
-
-.centered {
-  width: 100%;
-  text-align: center;
+.responsiveWrapper iframe,
+.responsiveWrapper object,
+.responsiveWrapper embed {
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	position:absolute;
 }
