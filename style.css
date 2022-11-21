@@ -25,3 +25,23 @@
   background-color: #04AA6D;
   color: white;
 }
+
+.ink {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.untitledrobotgame {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
