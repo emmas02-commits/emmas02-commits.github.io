@@ -44,9 +44,9 @@ p {
 .responsiveWrapper iframe,
 .responsiveWrapper object,
 .responsiveWrapper embed {
+  top:10%;
+  left:15%;
 	width:70%;
 	height:70%;
-	text-align: center;
-  align-content: center;
-  align-self: center;
+	position:absolute;
 }
