@@ -48,4 +48,5 @@ p {
 
 iframe {
   text-align: center;
+  display: block;
 }
