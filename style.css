@@ -29,8 +29,6 @@
 
 h2 {
   text-align: center;
-  margin-bottom: -20px;
-  margin-top:50px;
   color: white;
 }
 
@@ -41,7 +39,7 @@ p {
 
 .responsiveWrapper {
 	overflow:hidden;
-	padding-bottom:56.25%;
+	padding-bottom:45%;
 	padding-top:5px;
 	height:0;
 	position:relative;
@@ -50,9 +48,9 @@ p {
 .responsiveWrapper iframe,
 .responsiveWrapper object,
 .responsiveWrapper embed {
-  top:10%;
-  left:15%;
-	width:70%;
-	height:70%;
+  top:0%;
+  left:10%;
+	width:80%;
+	height:100%;
 	position:absolute;
 }
