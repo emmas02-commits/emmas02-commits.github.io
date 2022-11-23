@@ -54,3 +54,8 @@ p {
 	height:100%;
 	position:absolute;
 }
+
+.showcase {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
