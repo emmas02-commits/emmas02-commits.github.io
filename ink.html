@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Emma's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<h1 id="title">Emma Simon</h1>
+							<p>Graphics Rendering Programmer & VFX</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html#home" id="home-link"><span class="icon solid fa-home">Home</span></a></li>
+								<li><a href="index.html#technical" id="technical-link"><span class="icon solid fa-th">Technical Work</span></a></li>
+								<li><a href="index.html#academic" id="academic-link"><span class="icon solid fa-th">Academic Work</span></a></li>
+								<li><a href="index.html#art" id="art-link"><span class="icon solid fa-th">Art Portfolio</span></a></li>
+								<li><a href="index.html#about" id="about-link"><span class="icon solid fa-user">About</span></a></li>
+								<li><a href="resume.pdf" id="resume-link"><span class="icon solid fa-envelope">Resume</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/emmasimon1002/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://github.com/emmas02-commits" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://gitlab.com/EmmaS02" class="icon brands fa-gitlab"><span class="label">Gitlab</span></a></li>
+							<li><a href="mailto:emmasimon1002@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+				<!-- Technical Work -->
+					<section id="technical" class="two">
+						<div class="container">
+
+							<header style="margin-bottom: 10px">
+								<h2 style="font-size:80px">INK</h2>
+							</header>
+
+							<div>
+								<iframe src="https://www.youtube.com/embed/ieLyUifW0hc" alt="" style="display:block; margin:0 auto; width:80%; height:500px"></iframe>
+							</div>
+
+                            <p style=" text-align: left; margin-top: 30px; margin-left: 40px; margin-right:25px; font-size:15px; line-height: 1.5">Ink was my group's final project for CS354R: Game Technology with Dr. Abraham.
+                                It is a survival horror game focused around a single advanced AI chasing the player
+                                around a 2D sidescrolling level (we based this AI heavily around Mr. X from Resident
+                                Evil 4, specifically in terms of it's lack of omnipotense regarding information
+                                about the player). <br />
+
+                                The main features that I worked on as a member of this team were: <br />
+                                    &emsp;&emsp;- All Art Assets (minus the background texture for the demo level) <br />
+                                    &emsp;&emsp;- All Animations, and the Animation State Machine <br />
+                                    &emsp;&emsp;- The Entire Player Package <br />
+                                    &emsp;&emsp;- Level Design & Lighting <br />
+                                    &emsp;&emsp;- Djikstra's Room Graph Algorithm <br />
+
+                                The monster moves via Djikstra's Shortest Path Algorithm to navigate the level.
+                                We effectively modeled the entire level as a giant graph of "Room Nodes" that the monster
+                                can traverse between. This allows for very interesting behavior as it allows for the monster
+                                to easily make complex logical decisions when chasing the player about how best to navigate to
+                                them in the shrotest number of "Room Traversals" possible (obviously weighted by room size). <br />
+
+                                Overall, this design was very effective for achieving the AI technology we wanted, but it
+                                made level design very cumbersome due to needing to set up the "metadata" for the graph
+                                every time you wanted to add more rooms. Given more time, a tool to automate this process
+                                for level designers would have extremely useful and a much needed addition to the project.
+                            </p>
+
+						</div>
+					</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
