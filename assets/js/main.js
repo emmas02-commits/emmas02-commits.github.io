@@ -94,6 +94,20 @@
 
 			});
 
+		//Array of images which you want to show: Use path you want.
+		var images=new Array('images/Kernel Piano/VirtualPiano.png','images/Inventory System/Inventory.png','images/Ink/InkTrailer.png','images/Untitled Robot Game/AIBehavior.png');
+		var nextimage=0;
+		doSlideshow();
+
+		function doSlideshow(){
+			if(nextimage>=images.length){nextimage=0;}
+			$('#main > section.one')
+			.css('background-image','url("'+images[nextimage++]+'")')
+			.fadeIn(500,function(){
+				setTimeout(doSlideshow,6000);
+			});
+		}
+
 	// Scrolly.
 		$('.scrolly').scrolly();
 
