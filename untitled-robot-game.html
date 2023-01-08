@@ -88,18 +88,6 @@
                                     &emsp;&emsp;&emsp;&emsp;- Flyer AI's that track the player in an area above the ground and drop the aformentioned bombs on the player in an attempt to knock them off the platforms into the lava<br />
                                     &emsp;&emsp;- GLSL Lava Shaders<br />
                                     &emsp;&emsp;&emsp;&emsp;- Simulated a "wavey" surface using Godot's built-in GLSL-like shader scripting language<br />
-
-
-                                The monster moves via Djikstra's Shortest Path Algorithm to navigate the level.
-                                We effectively modeled the entire level as a giant graph of "Room Nodes" that the monster
-                                can traverse between. This allows for very interesting behavior as it allows for the monster
-                                to easily make complex logical decisions when chasing the player about how best to navigate to
-                                them in the shrotest number of "Room Traversals" possible (obviously weighted by room size). <br />
-
-                                Overall, this design was very effective for achieving the AI technology we wanted, but it
-                                made level design very cumbersome due to needing to set up the "metadata" for the graph
-                                every time you wanted to add more rooms. Given more time, a tool to automate this process
-                                for level designers would have extremely useful and a much needed addition to the project.
                             </p>
 
 						</div>
